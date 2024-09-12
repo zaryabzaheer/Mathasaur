@@ -1,0 +1,28 @@
+<svg id="maths-technology-svgrepo-com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.466" height="59.466" viewBox="0 0 59.466 59.466">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.961" y1="-1.08" x2="-0.84" y2="1.039" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#59f488"/>
+      <stop offset="1" stop-color="#e2e257"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(32.211 32.211)">
+    <g id="Group_3" data-name="Group 3">
+      <path id="Path_16" data-name="Path 16" d="M277.333,277.333v27.255h17.344a9.911,9.911,0,0,0,9.911-9.911V277.333Zm19,19.822H283.115V292.2h13.215Zm0-9.911H283.115v-4.956h13.215Z" transform="translate(-277.333 -277.333)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_6" data-name="Group 6" transform="translate(0)">
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_17" data-name="Path 17" d="M9.911,0A9.911,9.911,0,0,0,0,9.911V27.255H27.255V0ZM21.875,17.745h-4.53v4.53H12.389v-4.53H7.859V12.79h4.53V8.259h4.956v4.53h4.53v4.956Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_8" data-name="Group 8" transform="translate(0 32.211)">
+    <g id="Group_7" data-name="Group 7">
+      <path id="Path_18" data-name="Path 18" d="M0,277.333v17.344a9.911,9.911,0,0,0,9.911,9.911H27.255V277.333Zm21.574,15.592-3.5,3.5-3.2-3.2-3.2,3.2-3.5-3.5,3.2-3.2-3.2-3.2,3.5-3.5,3.2,3.2,3.2-3.2,3.5,3.5-3.2,3.2Z" transform="translate(0 -277.333)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g id="Group_10" data-name="Group 10" transform="translate(32.211)">
+    <g id="Group_9" data-name="Group 9">
+      <path id="Path_19" data-name="Path 19" d="M294.677,0H277.333V27.255h27.255V9.911A9.911,9.911,0,0,0,294.677,0Zm1.652,17.344H283.115V12.389h13.215Z" transform="translate(-277.333 0)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

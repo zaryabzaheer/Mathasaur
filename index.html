@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+   <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+   <link rel="manifest" href="images/favicon/site.webmanifest">
+   <link rel="mask-icon" href="images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+   <meta name="msapplication-TileColor" content="#da532c">
+   <meta name="theme-color" content="#ffffff">
+    <!---->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mathasaur Ludo</title>
+</head>
+<body>
+    <!-- ======Wrapper Start ======= --> 
+    <div id="wrapper">
+        <!-- ======Header Start ======= --> 
+        <header id="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <img class="img-fluid" src="./images/logo.png" alt="logo" >
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#select-gender">Select Gender</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#trailer">Trailer</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#download">Download App</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <!-- ======Header End ======= --> 
+        <main id="main">
+           <!--banner section-->
+            <section class="banner">
+              <div class="container">
+                 <div class="banner-data" data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine">
+                   <span class="head">WELCOME TO</span>
+                   <h1>Mathasaur Ludo</h1>
+                   <h4>GET READY TO EMBARK ON A JURASSIC JOURNEY</h4>
+                   <p class="section-head">Roll the dice, move your dino-themed game pieces, and race to safety in this thrilling prehistoric adventure.</p>
+                   <span class="button-wrapper">
+                     <button class="blue-button">Download Now</button>
+                  </span>
+                 </div>
+              </div>
+            </section>
+            <!--challange-->
+            <section class="challange">
+               <div class="container">
+                  <div class="challange-data">
+                     <h2>Are You Ready To Learn?</h2>
+                     <h3>DINO CHALLENGES</h3>
+                     <ul class="section-head">
+                        <li><strong>Play For Free:</strong> <span>Any one can jump in and play immediately.</span></li>
+                        <li><strong>Educational Value:</strong> <span>Dinosaur Learn Challenge Ludo Games Can Be Designed To Incorporate Educational Elements, Such As Teaching Players About Different Dinosaur Species, Their Characteristics, And Habitats. This Makes Learning About Dinosaurs Fun And Engaging, Particularly For Children.</span></li>
+                        <li><strong>Entertainment:</strong> <span>Ultimately, Dinosaur Learn Challenge Ludo Games Offer Entertainment And Enjoyment For Players Of All Ages. They Provide A Fun Way To Spend Leisure Time While Simultaneously Offering Educational Benefits.</span></li>
+                     </ul>
+                     <span class="button-wrapper">
+                        <button class="yellow-button">Play & Learn</button>
+                     </span>
+                   </div>
+               </div>
+            </section>
+            <section class="full-image-bg">
+                <!--selection-->
+                <div class="selection" id="select-gender">
+                  <div class="container">
+                    <div class="selection-data">
+                      <div class="selection-head text-center">
+                        <h2>Gender & Play</h2>
+                        <h3>SELECTION</h3>
+                      </div>
+                      <div class="selection-tabs">
+                          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-male-tab" data-bs-toggle="pill" data-bs-target="#pills-male" type="button" role="tab" aria-controls="pills-male" aria-selected="true">
+                                  <span class="tab-image" id="lottie-animation">
+                                    <span class="inner-image">
+                                    <img class="img-fluid" alt="Male tab" src="./images/tab-male.png">
+                                    </span>
+                                  </span>
+                              </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-female-tab" data-bs-toggle="pill" data-bs-target="#pills-female" type="button" role="tab" aria-controls="pills-female" aria-selected="false">
+                                <span class="tab-image" id="lottie-animation-1">
+                                  <span class="inner-image">
+                                  <img class="img-fluid" alt="Female tab" src="./images/tab-female.png">
+                                </span>
+                              </span>
+                              </button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-male" role="tabpanel" aria-labelledby="pills-male-tab" tabindex="0">
+                              <div class="tab-data">
+                                <div class="tab-data-head text-center">
+                                  <p>Select your character, whether it's a fearless young paleontologist or a daring explorer, and embark on a thrilling journey through the dinosaur world. The choice is yours, so pick your character and get ready to roll the dice</p>
+                                </div>
+                                <div class="select-avatar">
+                                  <div class="avatar-box avatar-box-boy orange">
+                                    <h2>Cameron</h2>
+                                    <div class="avatar-image">
+                                        <img class="img-fluid" src="./images/person-1.png" alt="person-1" >
+                                    </div>
+                                    <div id="tick-animation-1" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-boy blue active">
+                                    <h2>Morgan</h2>
+                                    <div class="avatar-image">
+                                      <img class="img-fluid" src="./images/person-2.png" alt="person-2" >
+                                    </div>
+                                    <div id="tick-animation-2" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-boy brown">
+                                    <h2>Taylor</h2>
+                                    <div class="avatar-image">
+                                      <img class="img-fluid" src="./images/person-3.png" alt="person-3" >
+                                    </div>
+                                    <div id="tick-animation-3" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-boy purple">
+                                    <h2>Jordan</h2>
+                                    <div class="avatar-image">
+                                      <img class="img-fluid" src="./images/person-4.png" alt="person-4" >
+                                    </div>
+                                    <div id="tick-animation-4" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-boy green">
+                                    <h2>Dakota</h2>
+                                    <div class="avatar-image">
+                                      <img class="img-fluid" src="./images/person-1.png" alt="person-5" >
+                                      </div> 
+                                      <div id="tick-animation-5" class="tick-animation"></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-female" role="tabpanel" aria-labelledby="pills-female-tab" tabindex="0">
+                              <div class="tab-data">
+                                <div class="tab-data-head text-center">
+                                  <p>Select your character, whether it's a fearless young paleontologist or a daring explorer, and embark on a thrilling journey through the dinosaur world. The choice is yours, so pick your character and get ready to roll the dice</p>
+                                </div>
+                                <div class="select-avatar">
+                                  <div class="avatar-box avatar-box-girl orange">
+                                    <h2>Cameron</h2>
+                                    <div class="avatar-image">
+                                      <img class="img-fluid" src="./images/girl-1.png" alt="girl-1" >
+                                    </div>
+                                    <div id="ticker-animation-1" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-girl blue active">
+                                    <h2>Morgan</h2>
+                                    <div class="avatar-image">
+                                    <img class="img-fluid" src="./images/girl-1.png" alt="girl-2" >
+                                    </div>
+                                    <div id="ticker-animation-2" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-girl brown">
+                                    <h2>Taylor</h2>
+                                    <div class="avatar-image">
+                                    <img class="img-fluid" src="./images/girl-1.png" alt="girl-3" >
+                                    </div>
+                                    <div id="ticker-animation-3" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-girl purple">
+                                    <h2>Jordan</h2>
+                                    <div class="avatar-image">
+                                    <img class="img-fluid" src="./images/girl-1.png" alt="girl-4" >
+                                    </div>
+                                    <div id="ticker-animation-4" class="tick-animation"></div>
+                                  </div>
+                                  <div class="avatar-box avatar-box-girl green">
+                                    <h2>Dakota</h2>
+                                    <div class="avatar-image">
+                                    <img class="img-fluid" src="./images/girl-1.png" alt="girl-5" >
+                                    </div> 
+                                    <div id="ticker-animation-5" class="tick-animation"></div>
+                                  </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>  
+                      </div>
+                  </div>
+                </div>
+                <!--play-section-->
+                <div class="play-section">
+                  <div class="container">
+                    <div class="play-data">
+                      <div class="play-head text-center section-head">
+                        <h2>How To Play?</h2>
+                        <h3>WORLD OF ENTERTAINMENT</h3>
+                        <p>Players take turns rolling the dice, moving their dinosaur-themed game pieces, and embarking on an exciting journey through the prehistoric era. Along the way, they'll encounter educational challenges and opportunities to learn more about these ancient creatures</p>
+                      </div>
+                      <div class="play-boxes">
+                        <div class="box text-center">
+                            <div class="box-image">
+                              <img class="img-fluid" alt="Download Square" src="./images/download-square.svg">
+                            </div>
+                            <h5>Download Game</h5>
+                        </div>
+                        <div class="box text-center">
+                          <div class="box-image">
+                            <img class="img-fluid" alt="Login Image" src="./images/login.svg">
+                          </div>
+                          <h5>Login/Signup</h5>
+                          </div>
+                          <div class="box text-center">
+                            <div class="box-image">
+                              <img class="img-fluid" alt="Select Player" src="./images/select-player.png">
+                            </div>
+                            <h5>Select Player</h5>
+                          </div>
+                          <div class="box text-center">
+                              <div class="box-image">
+                                <img class="img-fluid" alt="Maths Technology" src="./images/maths-technology.svg">
+                              </div>
+                              <h5>Face Math Challenges</h5>
+                          </div>
+                          <div class="box text-center">
+                              <div class="box-image">
+                                <img class="img-fluid" alt="Diplodocus Image" src="./images/diplodocus.svg">
+                              </div>
+                              <h5>Enjoy Dino Ride</h5>
+                          </div>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+                 <!--rules-->
+                <div class="rules">
+                  <div class="container">
+                        <div class="rules-data">
+                          <h2>Rules To Make The Game</h2>
+                          <h3>MORE CHALLENGING</h3>
+                          <ul class="section-head">
+                            <li>Players must roll a six to move a game piece out of the starting area, even if they have game pieces already on the track.</li>
+                            <li>Players must move their game pieces clockwise along the track until they reach the safety of the finishing area.</li>
+                            <li>The first player to get all four of their game pieces into the finishing area wins the game.</li>
+                            <li>Once a game piece is on the track, it can move forward the number of spaces shown on the die.</li>
+                          </ul>
+                          <span class="button-wrapper">
+                            <button class="yellow-button">Download Now</button>
+                          </span>
+                        </div>
+                  </div>
+                </div>
+            </section>
+            <section class="dino-full-bg">
+              <!--Victory-->
+              <div class="victory" id="trailer">
+                <div class="container">
+                  <div class="victory-data">
+                    <div class="victory-head text-center section-head">
+                      <h2>Enjoy Your Well-Deserved</h2>
+                      <h3>VICTORY</h3>
+                      <p>Congratulations, you're the ultimate dinosaur explorer! Your skills and luck have made you the triumphant champion of Dinosaur Learn Challenge Ludo. Enjoy your victory and bask in the glory of your prehistoric conquest!</p>
+                    </div>
+                    <div class="victory-content">
+                      <div class="video-in">
+                        <video autoplay muted loop>
+                          <source src="./videos/dinosaur-video.mp4" type="video/mp4">
+                        </video>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--download-->
+              <div class="download" id="download">
+                <div class="container">
+                    <div class="row">
+                      <div class="col-lg-5">
+                          <div class="download-img">
+                            <img class="img-fluid" alt="Mobile Image" src="./images/mobile.png" >
+                          </div>
+                      </div>
+                      <div class="col-lg-7">
+                        <div class="download-data">
+                          <h2>Download</h2>
+                          <h3>DOWNLOAD APP</h3>
+                          <p class="section-head">Join the adventure and unleash your inner paleontologist by downloading the Dinosaur Learn Challenge Ludo game today! Dive into a world where fun and education collide, and where every roll of the dice takes you on a journey through prehistory. Don't miss out on the excitement – download now and let the dino-quest begin</p>
+                          <ul>
+                            <li><a href="#" target="_blank"><img class="img-fluid" alt="App Store" src="./images/app-store.png"></a></li>
+                            <li><a href="#" target="_blank"><img class="img-fluid" alt="Google Play" src="./images/google-play.png"></a></li>
+                          </ul>
+                          <div class="qr-area d-flex align-items-center">
+                             <div class="qr-image">
+                              <img class="img-fluid" alt="Qr Code" src="./images/qr-code.svg">
+                             </div>
+                             <h5>Scan the App QR code to downlaod the app.</h5>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </section>
+            <!--problem-solving-->
+            <div class="problem-solving">
+              <div class="container">
+                <div class="ps-data">
+                  <div class="ps-head text-center section-head">
+                    <h2>Unearth The Treasure Box</h2>
+                    <h3>THROUGH PROBLEM SOLVING</h3>
+                    <p>In the thrilling world of the Mathasaur Game, players embark on a mathematical adventure, where their quest for success hinges on their problem-solving skills. By correctly answering a series of challenging questions, participants unlock the coveted treasure box. This section highlights the journey to victory and the rewards that await those who conquer its mathematical mysteries.</p>
+                  </div>
+                  <div class="ps-content">
+                    <div class="ps-image">
+                        <img class="img-fluid" alt="Problem Solving" src="./images/problem-solviong.png" >
+                    </div>
+                    <div class="rey-text">
+                      Win A Treasure Box <strong>& Unlock New Features</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <section class="learning">
+              <div class="container">
+                <div class="learn-data">
+                  <h2>Dino Quest Adventure:</h2>
+                  <h3>THE ULTIMATE LEARNING CHALLENGE</h3>
+                  <p>The objective of the game is to encourage kids to learn about dinosaurs while having fun. Players embark on a journey to discover different dinosaur species, their habitats, and interesting facts.</p>
+                  <span class="button-wrapper">
+                     <button class="yellow-button">Play & Learn</button>
+                  </span>
+                </div>
+                <!-- <div class="learn-img"><img class="img-fluid" alt="" src="./images/learning-img.png" /></div> -->
+              </div>
+            </section>
+          </main>
+         <!-- ======Footer Start ======= --> 
+        <footer id="footer">
+            <div class="hr-line"></div>
+            <div class="container">
+              <div class="main-footer">
+                 <div class="footer-logo">
+                  <a href="index.html">
+                    <img class="img-fluid" src="./images/logo.png" alt="Footer Logo">
+                  </a>
+                 </div>
+                 <div class="footer-menu">
+                  <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About</a></li>
+                    <li><a href="index,html#select-gender">Characters</a></li>
+                    <li><a href="index.html#trailer">Trailer</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="index.html#download">Download App</a></li>
+                  </ul>
+                </div>
+                 <div class="social-icons">
+                  <ul>
+                    <li><a class="facebook" href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a class="linkedin" href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a class="pinterest" href="#" target="_blank"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                    <li><a class="youtube" href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+               <div class="copyright text-center">
+                 <h6>Copyright Reserved By Zaryab</h6>
+               </div>
+            </div>
+        </footer>
+        <!-- ======Footer End ======= --> 
+    </div>
+    <!-- ======Wrapper End ======= --> 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/lottie.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
